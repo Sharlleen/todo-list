@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="main.css"> <!-- Add your CSS file if needed -->
+</head>
+<body>
+    <div class="main">
+        <h1>TO DO LIST</h1>
+    
+        <form class="form">
+            <input id="newtask" type="text" placeholder="Enter your task Title here">
+            <input id="taskDesc" type="text" placeholder="Enter your task Descriptions...">
+            <select id="priority">
+                <option value="low">Low Priority</option>
+                <option value="medium">Medium Priority</option>
+                <option value="high">High Priority</option>
+                
+              
+            </select>
+            <button id="addbutton" type="submit">Add Task</button>
+        </form>
+        <ol class="todolist"></ol>
+        <button class="clear d-none">Clear All</button>
+    </div>
+    
+    <script src="main.js"></script> 
+</body>
+</html>
